@@ -1,0 +1,19 @@
+{
+  "name": "antivirus-node",
+  "version": "1.1.0",
+  "description": "Scanner antivírus educativo/pessoal em Node.js: hash, assinaturas, heurísticas, quarentena, VirusTotal e monitoramento em tempo real",
+  "main": "src/scanner.js",
+  "bin": {
+    "antivirus-node": "src/cli.js"
+  },
+  "scripts": {
+    "scan": "node src/cli.js scan",
+    "watch": "node src/cli.js watch",
+    "selftest": "node src/cli.js selftest",
+    "clean": "node src/cli.js clean"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}
